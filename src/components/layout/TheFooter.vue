@@ -99,7 +99,7 @@ import { ref, onMounted, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { downloadResume, downloadCV, getProfile } from '../../services/api'
 import { useThemeStore } from '../../stores/themeStore'
-import AppLoader from '../ui/AppLoader.vue'
+import AppLoader from '../UI/AppLoader.vue'
 
 const { t } = useI18n()
 const themeStore = useThemeStore()

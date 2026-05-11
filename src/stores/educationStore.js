@@ -26,6 +26,6 @@ export const useEducationStore = defineStore('education', () => {
     }
   }
 
-  return { education, loading, error, fetch }
+  return { education, loading, error, errorCode, fetch }
 })
 

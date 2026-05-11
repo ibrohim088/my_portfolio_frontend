@@ -2,7 +2,7 @@ import { defineStore } from 'pinia'
 import { ref } from 'vue'
 import { getTechnologies } from '../services/api.js'
 
-export const useTechStore = defineStore('technoloy', () => {
+export const useTechStore = defineStore('technology', () => {
   const technologies = ref([])
   const loading = ref(false)
   const error = ref(null)

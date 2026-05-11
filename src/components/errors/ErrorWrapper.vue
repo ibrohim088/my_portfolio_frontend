@@ -27,7 +27,7 @@ const globalError = computed(() => props.stores.some(s => s.error))
 const failedEndpoints = computed(() => {
   return props.stores
     .filter(s => s.error)
-    .map(s => s.storeName) // Har bir storega storeName qo'shib chiqish kerak
+    .map(s => s.$id)
     .join(', ')
 })
 

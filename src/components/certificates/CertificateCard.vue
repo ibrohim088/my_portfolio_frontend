@@ -1,5 +1,5 @@
 <template>
-  <AppCard :loading="loading" variant="certificate">
+  <AppCard :is-loading="loading" variant="certificate">
     <h3>{{ t('certificate.title') }}</h3>
     <CertificateItem
       v-for="item in certificates"
